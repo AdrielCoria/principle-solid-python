@@ -1,0 +1,27 @@
+======================== SOLID ========================
+Saber como funciona nos brinda calidad de código.
+
+-------------------------------------------------------
+    1- S:Principle Responsability
+-------------------------------------------------------
+Cada clase debe estar encargada de una única funcionalidad(Debe tener
+una sola tarea o razón) y debe ser clara(no se deben solapar dentro de una
+clase)
+
+
+2- O:Principle Open Close
+-------------------------------------------------------
+Se llama así porque es abierto para la extensión(ampliar funcionalidad), es 
+decir agregar nuevas funcionalidades, sin modificar el código existente y 
+cerrado para la modificación para no modificar nuestro código original.
+
+3- S:Principle Responsability
+-------------------------------------------------------
+
+4- S:Principle Responsability
+-------------------------------------------------------
+
+
+5- S:Principle Responsability
+-------------------------------------------------------
+
