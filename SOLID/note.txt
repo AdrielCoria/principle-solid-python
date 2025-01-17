@@ -1,27 +1,38 @@
 ======================== SOLID ========================
 Saber como funciona nos brinda calidad de código.
 
--------------------------------------------------------
+--------------------------------------------------------------------
     1- S:Principle Responsability
--------------------------------------------------------
+--------------------------------------------------------------------
 Cada clase debe estar encargada de una única funcionalidad(Debe tener
-una sola tarea o razón) y debe ser clara(no se deben solapar dentro de una
-clase)
+una sola tarea o razón) y debe ser clara(no se deben solapar dentro 
+de una clase)
 
+--------------------------------------------------------------------
+    2- O:Principle Open Close
+--------------------------------------------------------------------
+Se llama así porque es abierto para la extensión(ampliar funcionalidad)
+, es decir agregar nuevas funcionalidades, sin modificar el código 
+existente y cerrado para la modificación para no modificar nuestro 
+código original.
 
-2- O:Principle Open Close
--------------------------------------------------------
-Se llama así porque es abierto para la extensión(ampliar funcionalidad), es 
-decir agregar nuevas funcionalidades, sin modificar el código existente y 
-cerrado para la modificación para no modificar nuestro código original.
+--------------------------------------------------------------------
+    3- L:Principle Substitution Liskov
+--------------------------------------------------------------------
+Establece que una clase tiene otra clase derivadas, los objetos de 
+la clase padre los podemos alternar sin que su funcionamiento sea 
+correcto. Podemos cambiar la clase hija por la clase base y no 
+debería cambiar su funcionamiento o de forma correcta.
 
-3- S:Principle Responsability
--------------------------------------------------------
+--------------------------------------------------------------------
+    4- I:Principle Segregation Interface
+--------------------------------------------------------------------
+Una clase no debe estar obligada a implementar Interfaces que no 
+utiliza. 
 
-4- S:Principle Responsability
--------------------------------------------------------
-
-
-5- S:Principle Responsability
--------------------------------------------------------
-
+--------------------------------------------------------------------
+    5- D:Principle Dependency Inversión
+--------------------------------------------------------------------
+Nos modulos de alto nivel no pueden depender de los módulos de 
+bajo nivel, ambos deben depender de abstracciones.
+Esto significa que se tiene que usar interfaces.
